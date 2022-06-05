@@ -1,4 +1,4 @@
-# graphs-in-sql
+# Graphs In SQL
 ## Background
 This repo contains algorithms for root node tracing and community detection of graphs in SQL. Root node tracing and community detection are fundamental tasks for finding appropriate cohorts in information retrieval and transactions. Unlike graph traversal algorithms that visit only one node at a time, root tracing and community detection can be conducted simultaneously for across all nodes. Therefore, we can leverage the highly efficient data joining operations implemented in the backend SQL. In the meantime, the algorithms in this repo can be easily adopted to the map-reduce frameworks.
 
